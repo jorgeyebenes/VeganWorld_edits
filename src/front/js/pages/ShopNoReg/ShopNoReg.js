@@ -6,17 +6,7 @@ import { Footer } from '../../component/Footer/Footer.js';
 const ShopNoReg = () => {
   return (
     <div className="shop_noreg_vistappal">
-        <div className="shop_noreg_navbar">
-            <NavBar />
-        </div>
-
-        <div className="shop_noreg_jumbotron">
-            <div className="shop_noreg_jumbo_logo">
-                <img>Logo</img>
-                <h1>SHOP NAME</h1>
-            </div>
-        </div>
-
+        
         <div className="shop_noreg_body">
             <div className="shop_noreg_body_cards">
                 <Card1 /> <Card2 /> <Card3 /> <Card4 />

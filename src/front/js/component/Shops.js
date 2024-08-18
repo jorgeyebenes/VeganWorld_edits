@@ -66,6 +66,7 @@ export const Shops = () => {
                     <div className="baseCard mx-3 mb-4">
                         <div className="card">
                             <div className="card-body">
+                                <img className="card-img" src="" alt=""></img>
                                 <h5 className="card-title">Special title treatment</h5>
                                 <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                 <a href="#" className="btn btnCards">Go somewhere</a>

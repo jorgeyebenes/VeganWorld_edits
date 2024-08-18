@@ -391,6 +391,32 @@
     border-radius: 15px;
   }
   
+  /* estilos de las pills perfil tienda no reg */
+
+
+.tab-content {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.card-img {
+  max-width: 55%;
+  max-height: 55%;
+}
+.business_noreg_logo {
+  max-width: 25%;
+  max-height: 25%;
+}
+.business_noreg_nombre {
+  font-size: 75px;
+}
+.jumbo_business_noreg {
+  color: #b4e380;
+}
+
+
+
+
   @media (max-width: 500px){
     .contAdd{
       width: 90%;
