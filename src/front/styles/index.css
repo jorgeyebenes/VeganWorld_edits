@@ -404,18 +404,37 @@
   max-height: 55%;
 }
 .business_noreg_logo {
+  padding: 2rem;
+  margin-left: 2rem;
   max-width: 25%;
   max-height: 25%;
 }
 .business_noreg_nombre {
   font-size: 75px;
+  margin-top: 2rem;
+  margin-left: 2rem;
 }
-.jumbo_business_noreg {
-  color: #b4e380;
+.business_noreg_adress {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.business_noreg_cards {
+  background-color: white;
 }
 
+.baseCard {
+  background-color: #F6FB7A;
+}
 
+.container_logo {
+  display: flex;
+  flex-direction: row;
+  background-color: #fcfbbe;
+  padding-bottom: 3rem;
+  margin-top: 2rem;
+}
 
+.
 
   @media (max-width: 500px){
     .contAdd{
