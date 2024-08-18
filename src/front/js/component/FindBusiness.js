@@ -127,4 +127,4 @@ export const FindBusiness = () => {
             </div>
         </div>
     )
-};
+}

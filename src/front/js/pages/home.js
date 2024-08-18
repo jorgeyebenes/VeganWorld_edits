@@ -11,8 +11,8 @@ export const Home = () => {
 	return (
 		<div>
 			<Jbtron />
-			<FindBusiness />
 			<Shops />
+			<FindBusiness />
 			<Reviews />
 			<Footer />
 		</div>
