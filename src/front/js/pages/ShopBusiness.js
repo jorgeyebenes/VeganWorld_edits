@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ImgBusiness from '/workspaces/VeganWorld_edits/src/front/img/Captura de pantalla 2024-08-05 123649 1.png'
+import BusinessLogo1 from '/workspaces/VeganWorld_edits/src/front/img/BusinessLogo1.png'
 import AvatarImg from './/../../img/avatarImg.png'
-import MenuBusiness from '/workspaces/VeganWorld_edits/src/front/img/Captura de pantalla 2024-08-18 071804.png'
+import MenuBusiness1 from '/workspaces/VeganWorld_edits/src/front/img/MenuBusiness1.png'
 import {Reviews} from '/workspaces/VeganWorld_edits/src/front/js/component/Reviews.js'
 import {BotonDescuento} from '/workspaces/VeganWorld_edits/src/front/js/component/BotonDescuento.js'
 import { WriteFeedback } from "../component/WriteFeedback";
@@ -17,7 +17,7 @@ export const ShopBusiness = () => {
 
         <div className="jumbo_business_noreg">
             <div className="container_logo">    
-                <img className="business_noreg_logo" href="#" src={ImgBusiness} />
+                <img className="business_noreg_logo" href="#" src={BusinessLogo1} />
                 <h1 className="business_noreg_nombre">Nombre Negocio</h1>
                 <h2 className="business_noreg_adress">Av. Adress of business nº1 </h2>
             </div>
@@ -89,7 +89,7 @@ export const ShopBusiness = () => {
 
 				<div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                 
-                <h1>MENU PICS:</h1>
+                <h1>BUSINESS PICS:</h1>
                 <br />
                 <div className="baseCard mx-3 mb-4">
                         <div className="cards_business_noreg">
@@ -147,7 +147,7 @@ export const ShopBusiness = () => {
 
             <div className="tab-pane fade" id="pills-menu" role="tabpanel" aria-labelledby="pills-menu-tab">
 
-                <img className="menu_business" src={MenuBusiness}></img>
+                <img className="menu_business" src={MenuBusiness1}></img>
 
             </div>
 

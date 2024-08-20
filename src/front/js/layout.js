@@ -13,7 +13,11 @@ import injectContext from "./store/appContext";
 import { Navbar } from "./component/Navbar.js";
 import { ShopClient } from "./pages/ShopClient";
 import { DetailView } from "./pages/DetailView";
-import { Footer } from "./component/Footer.js"
+import { Footer } from "./component/Footer.js";
+import { HeroEdit } from "./component/HeroEdit.js";
+import { Hero } from "./component/Hero.js";
+import { HeroEdit2 } from "./component/HeroEditDos.js"
+import { HeroUsuario } from "./component/HeroUsuario.js";
 
 //create your first component
 const Layout = () => {
