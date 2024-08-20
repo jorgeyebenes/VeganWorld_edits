@@ -3,12 +3,12 @@ import BusinessLogo1 from "/workspaces/VeganWorld_edits/src/front/img/BusinessLo
 import MenuBusiness1 from '/workspaces/VeganWorld_edits/src/front/img/MenuBusiness1.png'
 import {Reviews} from '/workspaces/VeganWorld_edits/src/front/js/component/Reviews.js'
 import {BotonDescuento} from '/workspaces/VeganWorld_edits/src/front/js/component/BotonDescuento.js'
-import { WriteFeedback } from "../component/WriteFeedback";
-import { FindBusiness } from "../component/FindBusiness";
-import { BotonDomicilio } from "../component/BotonDomicilio";
+import { WriteFeedback } from "./WriteFeedback";
+import { FindBusiness } from "./FindBusiness";
+import { BotonDomicilio } from "./BotonDomicilio";
 import AguacateNegro from "/workspaces/VeganWorld_edits/src/front/img/aguaNegro.png"
 
-export const HeroEditDos = () => {
+export const HeroShop = () => {
   return (
     <div className="container my-5">
             <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">

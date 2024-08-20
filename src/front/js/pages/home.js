@@ -9,31 +9,22 @@ import { Footer } from "../component/Footer";
 import { Navbar } from "../component/Navbar";
 import {Hero} from "../component/Hero";
 import {HeroEdit} from "/workspaces/VeganWorld_edits/src/front/js/component/HeroEdit.js";
-import {HeroEditDos} from "../component/HeroEditDos.js";
+import {HeroShop} from "../component/HeroShop.js";
 import { HeroUsuario } from "../component/HeroUsuario.js";
+import { HeroPremium } from "../component/HeroPremium.js";
+import { Dashboard } from "/workspaces/VeganWorld_edits/src/front/js/component/Dashboard.js"
 
 
 export const Home = () => {
 
 	return (
 		<div>
-			<HeroUsuario />
-
-
-
-
-
-
-
-
 			
+			<HeroShop />
+			<HeroPremium />
+
+
 			<Footer />
-
-
-
-
-
-
 
 
 		</div>

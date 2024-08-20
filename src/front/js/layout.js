@@ -16,8 +16,10 @@ import { DetailView } from "./pages/DetailView";
 import { Footer } from "./component/Footer.js";
 import { HeroEdit } from "./component/HeroEdit.js";
 import { Hero } from "./component/Hero.js";
-import { HeroEdit2 } from "./component/HeroEditDos.js"
+import { HeroShop } from "./component/HeroShop.js"
 import { HeroUsuario } from "./component/HeroUsuario.js";
+import { HeroPremium } from "./component/HeroPremium.js";
+import { Dashboard } from "./component/Dashboard.js";
 
 //create your first component
 const Layout = () => {
